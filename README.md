@@ -2,7 +2,7 @@
 ## Sidra Sohail 
 ## DADA2, mothur, and USEARCH: Benchmarking and testing three tools that analyze microbial data
 ### Background
-Breast cancer data from Xuan et al. paper was used for benchmarking and testing the three tools
+Breast cancer data from Xuan et al. paper was used for benchmarking and testing the three tools. This data can be downloaded from the SRA using this accession number PRJEB4755.
 ### Packages and software to install before running
 Bash: [mothur version 1.45.3](https://github.com/mothur/mothur/releases/tag/v1.45.3), [usearch 32-bit version 11](https://www.drive5.com/usearch/download.html)  
 R: Bioconductor, dada2, phyloseq, Biostrings, ggplot2
