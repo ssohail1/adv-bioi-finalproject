@@ -28,4 +28,8 @@ Run dada2 Rscript: `/usr/bin/time --verbose time nohup Rscript Xuan_subdata-Rcod
 Run mothur script: `/usr/bin/time --verbose ./Xuandata-mothurscript_1.sh` and then `/usr/bin/time --verbose ./Xuandata-mothurscript_2.sh` set permissions by `chmod 755 mothurscript.sh`  
 Run usearch script: `/usr/bin/time --verbose ./Xuandata-usearchscript.sh`  
 
-Outputs available in the output folder of each tool directory
+Generating visual outputs:  
+Visual outputs available in the output folder of each tool directory  
+dada2: in R through phyloseq and ggplot2  
+mothur: through [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca/MicrobiomeAnalyst/upload/OtuUploadView.xhtml) by inputting otu table, taxonomy file, and metadata file under mothur output section  
+usearch: through otutab_octave in form of html or svg formats
