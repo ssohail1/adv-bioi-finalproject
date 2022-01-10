@@ -10,7 +10,7 @@ R: Bioconductor, dada2, phyloseq, Biostrings, ggplot2
 
 ### Files in repo
 - dada2 folder:
-  - Xuan_subdata-Rcode.R: Rscript for running [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial_1_8.html)
+  - Xuan_subdata-Rcode.R: R script for running [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial_1_8.html)
 - mothur folder:
   - Xuandata-mothurscript_1.sh: bash script for running [mothur MiSeq SOP](https://mothur.org/wiki/miseq_sop/) upto seq.error command
   - Xuandata-mothurscript_2.sh: bash script for running [mothur MiSeq SOP](https://mothur.org/wiki/miseq_sop/) starting from dist.seqs upto classify.otu command
