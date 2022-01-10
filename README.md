@@ -25,7 +25,7 @@ To move into adv-bioi-finalproject directory use `cd`,
 `cd adv-bioi-finalproject`
 
 Running the scripts: `--verbose time` provides memory and time usage by the tool  
-Run dada2 Rscript: `/usr/bin/time --verbose time nohup Rscript Xuan_subdata-Rcode.R` nohup creates an out file with output of each command  
+Run dada2 R script: `/usr/bin/time --verbose time nohup Rscript Xuan_subdata-Rcode.R` nohup creates an out file with output of each command  
 Run mothur script: `/usr/bin/time --verbose ./Xuandata-mothurscript_1.sh` and then `/usr/bin/time --verbose ./Xuandata-mothurscript_2.sh` set permissions by `chmod 755 mothurscript.sh`  
 Run usearch script: `/usr/bin/time --verbose ./Xuandata-usearchscript.sh`  
 
